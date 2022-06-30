@@ -1,0 +1,31 @@
+{
+  "repository": "#",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "start": "webpack serve --config ./bundler/webpack.dev.js"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "gsap": "^3.5.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lil-gui": "^0.16.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "portfinder-sync": "0.0.2",
+    "three": "^0.140.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/cannon": "^0.1.8",
+    "@types/three": "^0.141.0"
+  }
+}
